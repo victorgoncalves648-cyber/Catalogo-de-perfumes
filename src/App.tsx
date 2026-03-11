@@ -46,12 +46,17 @@ export default function App() {
       {/* Header */}
       <header className="bg-white border-b border-black/5 sticky top-0 z-10">
         <div className="max-w-3xl mx-auto px-4 py-6">
-          <h1 className="text-2xl font-semibold tracking-tight mb-1">Catálogo de Perfumes</h1>
-          <p className="text-sm text-[#9e9e9e]">Consulte preços e tamanhos disponíveis</p>
+          <h1 className="text-2xl font-semibold tracking-tight mb-1">V&L Perfumaria</h1>
+          <p className="text-sm text-[#9e9e9e]">Catálogo de Perfumes - Preços e tamanhos</p>
         </div>
       </header>
 
       <main className="max-w-3xl mx-auto px-4 py-8">
+        <div className="mb-8">
+          <h2 className="text-4xl font-bold tracking-tight mb-2">V&L Perfumaria</h2>
+          <p className="text-[#9e9e9e]">Encontre seu perfume favorito abaixo</p>
+        </div>
+
         {/* Search Bar */}
         <div className="relative mb-8">
           <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none">
@@ -167,7 +172,7 @@ export default function App() {
       </main>
 
       <footer className="max-w-3xl mx-auto px-4 py-12 text-center text-[#9e9e9e] text-xs">
-        <p>© {new Date().getFullYear()} Catálogo de Perfumes. Dados sincronizados da planilha oficial.</p>
+        <p>© {new Date().getFullYear()} V&L Perfumaria. Dados sincronizados da planilha oficial.</p>
       </footer>
     </div>
   );
